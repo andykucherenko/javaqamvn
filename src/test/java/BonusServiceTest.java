@@ -15,6 +15,7 @@ public class BonusServiceTest {
 
         Assertions.assertEquals(expected, actual);
     }
+
     @Test
     void shouldCalculateForRegisteredAndOverLimit() {
 
@@ -28,6 +29,7 @@ public class BonusServiceTest {
 
         Assertions.assertEquals(expected, actual);
     }
+
     @Test
     void shouldCalculateForUnRegisteredUnderLimit() {
 
@@ -41,6 +43,7 @@ public class BonusServiceTest {
 
         Assertions.assertEquals(expected, actual);
     }
+
     @Test
     void shouldCalculateForUnRegisteredAndOverLimit() {
 
@@ -54,6 +57,5 @@ public class BonusServiceTest {
 
         Assertions.assertEquals(expected, actual);
     }
-
 }
 
